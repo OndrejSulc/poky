@@ -1,0 +1,32 @@
+{
+    "sources": {
+        "meta-raspberrypi": {
+            "git-remote": {
+                "branch": "master",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "git://git.yoctoproject.org/meta-raspberrypi"
+                    }
+                },
+                "rev": "8231f97534812cb0c6ab8d500eff44d3880fdac5"
+            },
+            "path": "poky/meta-raspberrypi"
+        },
+        "poky": {
+            "contains_this_file": true,
+            "git-remote": {
+                "branch": "master",
+                "describe": "4.3_M3-952-g960275d378",
+                "remotes": {
+                    "origin": {
+                        "uri": "git://git.yoctoproject.org/poky"
+                    }
+                },
+                "rev": "960275d378f0726d29221ef28f83b1fe12fd06e0"
+            },
+            "path": "poky"
+        }
+    },
+    "version": "1.0"
+}
